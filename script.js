@@ -71,3 +71,17 @@
 // var y = Person2[5];
 // var z = x + y;
 // console.log(z);
+
+// if  else if   else
+
+// var note = 8;
+
+// if (note > 10) {
+//   var x = 2025;
+//   console.log("rak naj7 3am : ", x);
+// } else if (note > 7) {
+//   var x = "2025 session Ratt";
+//   console.log("Ratt : ", x);
+// } else {
+//   console.log("Not Admis");
+// }
