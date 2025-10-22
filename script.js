@@ -86,9 +86,40 @@
 //   alert("had la note li dkhlti raha ghalta");
 // }
 
+// var x = 20;
+// if (x == 20 || x < 18) {
+//   alert("rah 3ndna had la note");
+// } else {
+//   alert("ma3ndkch had la note flmajal dyalna");
+// }
+
+// ||  : or (ou) aw
+// &&  : and (et)  wa
+// ==  :  equal (egale) tosawi
+// =   : assignment (l'affectation)
+// !=  : not equal (deferent)
+// === : strict equal (structement égale)
+// !==
+// >
+// <
+// >=
+// <=
+//   "string pour les messages"
+//  `another style for string messages`
+
+// var x = 20;
+// var y = "20";
+
+// if (x !== y) {
+//   alert(" x et y rahom mtsawyiin");
+// } else {
+//   alert("x et y ga3 mamtsawyiin");
+// }
+
 var x = 20;
-if (x == 20 || x < 18) {
-  alert("rah 3ndna had la note");
-} else {
-  alert("ma3ndkch had la note flmajal dyalna");
-}
+
+console.log("la valeur de X est :", x, "et merci :)");
+console.log("la valeur de X est : " + x + " et merci :)");
+console.log(`la valeur de X est :
+     ${x} 
+      et merci :)`);
