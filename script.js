@@ -74,14 +74,21 @@
 
 // if  else if   else
 
-// var note = 8;
+// var note = prompt("3tini la note dyalk");
 
-// if (note > 10) {
-//   var x = 2025;
-//   console.log("rak naj7 3am : ", x);
-// } else if (note > 7) {
-//   var x = "2025 session Ratt";
-//   console.log("Ratt : ", x);
+// if (20 >= note && note >= 10) {
+//   alert("rak nja7ti b : " + note);
+// } else if (10 > note && note >= 7) {
+//   alert("3ndk rattrapage b :" + note);
+// } else if (7 > note && note >= 0) {
+//   alert("rak sa9t b :" + note);
 // } else {
-//   console.log("Not Admis");
+//   alert("had la note li dkhlti raha ghalta");
 // }
+
+var x = 20;
+if (x == 20 || x < 18) {
+  alert("rah 3ndna had la note");
+} else {
+  alert("ma3ndkch had la note flmajal dyalna");
+}
