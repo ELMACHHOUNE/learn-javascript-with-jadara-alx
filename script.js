@@ -124,28 +124,28 @@
 //      ${x}
 //       et merci :)`);
 
-function sum(x, y) {
-  var z;
-  z = x + y;
+// function sum(x, y) {
+//   var z;
+//   z = x + y;
 
-  return z;
-}
+//   return z;
+// }
 
-console.log(sum(4, 6));
+// console.log(sum(4, 6));
 
-function multiple(x, y) {
-  return x * y;
-}
+// function multiple(x, y) {
+//   return x * y;
+// }
 
-console.log(multiple(4, 6));
+// console.log(multiple(4, 6));
 
-function YourName(FirstName, LastName, age) {
-  var FullName;
-  FullName = FirstName + " " + LastName + " et votre age est : " + age;
+// function YourName(FirstName, LastName, age) {
+//   var FullName;
+//   FullName = FirstName + " " + LastName + " et votre age est : " + age;
 
-  return FullName;
-}
+//   return FullName;
+// }
 
-x = YourName("MOHAMED", "EL MACHHOUNE", 27);
-console.log(x);
-alert(x);
+// x = YourName("MOHAMED", "EL MACHHOUNE", 27);
+// console.log(x);
+// alert(x);
