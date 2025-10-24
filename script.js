@@ -116,10 +116,36 @@
 //   alert("x et y ga3 mamtsawyiin");
 // }
 
-var x = 20;
+// var x = 20;
 
-console.log("la valeur de X est :", x, "et merci :)");
-console.log("la valeur de X est : " + x + " et merci :)");
-console.log(`la valeur de X est :
-     ${x} 
-      et merci :)`);
+// console.log("la valeur de X est :", x, "et merci :)");
+// console.log("la valeur de X est : " + x + " et merci :)");
+// console.log(`la valeur de X est :
+//      ${x}
+//       et merci :)`);
+
+function sum(x, y) {
+  var z;
+  z = x + y;
+
+  return z;
+}
+
+console.log(sum(4, 6));
+
+function multiple(x, y) {
+  return x * y;
+}
+
+console.log(multiple(4, 6));
+
+function YourName(FirstName, LastName, age) {
+  var FullName;
+  FullName = FirstName + " " + LastName + " et votre age est : " + age;
+
+  return FullName;
+}
+
+x = YourName("MOHAMED", "EL MACHHOUNE", 27);
+console.log(x);
+alert(x);
