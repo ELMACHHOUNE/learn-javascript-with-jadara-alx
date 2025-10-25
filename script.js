@@ -130,7 +130,6 @@
 
 //   return z;
 // }
-
 // console.log(sum(4, 6));
 
 // function multiple(x, y) {
